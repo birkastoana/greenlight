@@ -14,7 +14,9 @@ gem 'rails', '~> 5.2.3'
 gem 'puma', '~> 3.0'
 
 # Use SCSS for stylesheets
-gem 'sassc-rails'
+gem 'sass-rails', '~> 5.0.7', require: false
+gem 'sassc-rails', '~> 2.1.0'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -58,7 +60,8 @@ gem 'bigbluebutton-api-ruby'
 
 # Front-end.
 gem 'bootstrap', '~> 4.3.1'
-gem 'tabler-rubygem', git: 'https://github.com/blindsidenetworks/tabler-rubygem.git', tag: '0.1.4.1'
+#gem 'tabler-rubygem', git: 'https://github.com/blindsidenetworks/tabler-rubygem.git', tag: '0.1.4.1'
+ gem 'tabler-rubygem'
 gem 'pagy'
 gem 'font-awesome-sass', '~> 5.9.0'
 
