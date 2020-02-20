@@ -18,6 +18,8 @@
 
 # Load the Rails application.
 require_relative 'application'
+system("[ -f .env ] && [ -s .env ] && export $(grep -v '^#' .env | xargs) ;")
+#system("gem env")
 
 # Initialize the Rails application.
 Rails.application.initialize!
